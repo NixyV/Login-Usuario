@@ -103,4 +103,23 @@ h5{
     margin: -25px;
        
 }
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+display: none;
+    }
+    .right-login{
+        width: 70%
+    }
+    .btn-login{
+        width: 108%;
+    }
+}
 
